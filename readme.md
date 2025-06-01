@@ -1,29 +1,69 @@
-# 📝 Customer Satisfaction Analysis using Yelp Data
+# 📊 Yelp Customer Satisfaction Analysis
 
-This project analyzes millions of Yelp reviews using Apache Spark on Databricks to extract sentiment insights and improve customer satisfaction. It demonstrates large-scale data processing, cloud storage, and NLP-based sentiment analysis.
+A real-world data science project analyzing millions of Yelp reviews to uncover patterns in customer satisfaction using large-scale data processing, NLP, and interactive dashboards.
 
-## 🚀 Tools & Technologies
-- Apache Spark (Databricks)
-- SQL + PySpark
-- Hugging Face Transformers (for Sentiment Analysis)
-- Google Cloud Storage (for storing large review datasets)
-- Tableau & Google Data Studio (for dashboards)
+## 🚀 Project Overview
 
-## 📂 Notebooks
-- `603_project_store_raw_data_to_gcs.ipynb`: Stores Yelp data to Google Cloud Storage.
-- `603-project-processing-data-databricks.ipynb`: Cleans and prepares review data on Databricks using Spark.
-- `Queries.ipynb`: Exploratory SQL queries on cleaned review data.
-- `Sentimental_Analysis.ipynb`: Uses pre-trained models from Hugging Face to extract sentiment scores.
+This project explores customer sentiments across businesses by processing Yelp reviews using Apache Spark and Databricks. It applies modern NLP techniques to extract meaningful insights and visualizes trends that help drive decisions.
 
-## 📊 Outcome
-Created sentiment trend dashboards in Tableau to uncover key business insights for restaurant owners to improve service quality.
+🔍 **Problem Statement:**  
+Can we accurately understand customer satisfaction using review data and provide actionable insights for business improvement?
 
-## 📎 Links
-- 🔗 [Portfolio Project Page](https://yourname.netlify.app#projects)
-- 📊 [Demo Dashboard](#)
-- 📘 [Notebook Viewer](https://nbviewer.org/)
+## 🛠️ Key Features
 
-## 📬 Contact
-- **Vamshikrishna Pandilla**  
-- 📧 pandirlavamshikrishna602@gmail.com  
-- 🌐 [LinkedIn](https://linkedin.com/in/vamshikrishna-pandilla) | [GitHub](https://github.com/vamshikrish2882)
+- 💾 Ingested large-scale Yelp data and stored it in **Google Cloud Storage**
+- ⚙️ Processed reviews using **Apache Spark** on **Databricks**
+- 🤖 Applied **Hugging Face Transformers** for sentiment analysis
+- 📈 Created **Tableau dashboards** and **Google Data Studio reports**
+- 🧠 Wrote SQL queries and Python logic to derive deep insights
+
+## 📁 Folder Structure
+
+```
+notebooks/
+├── 603_project_store_raw_data_to_gcs.ipynb
+├── 603-project-processing-data-databricks.ipynb
+├── Queries.ipynb
+├── Sentimental_Analysis.ipynb
+requirements.txt
+readme.md
+```
+
+## 🧰 Tech Stack
+
+- Python, Pandas, SQL
+- Apache Spark
+- Hugging Face Transformers
+- Google Cloud Storage
+- Databricks
+- Tableau, Google Data Studio
+
+## 📌 How to Run
+
+1. Clone this repo:
+   ```
+   git clone https://github.com/vamshikrish2882/yelp-customer-satisfaction.git
+   ```
+2. Install dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+3. Run notebooks in order:  
+   a. `603_project_store_raw_data_to_gcs.ipynb`  
+   b. `603-project-processing-data-databricks.ipynb`  
+   c. `Sentimental_Analysis.ipynb`  
+   d. `Queries.ipynb`  
+
+## 🔗 Useful Links
+
+- 🌐 **Portfolio Website:** [vamshikrishnap.online](https://vamshikrishnap.online/)
+- 💼 **LinkedIn:** [vamshikrishna-pandilla](https://www.linkedin.com/in/vamshikrishna-pandilla/)
+- 🧠 **More Projects:** [GitHub Profile](https://github.com/vamshikrish2882)
+
+---
+
+## 👤 Author
+
+**Vamshikrishna Pandilla**  
+🎓 Master’s in Data Science, University of Maryland Baltimore County (UMBC)  
+💡 Passionate about applying AI to solve real-world problems
